@@ -16,7 +16,7 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "$(inherited) arm64"
   },
   "source": {
-    "http": "http://localhost:8181/pods/sdk/OpenVessel-1.0.0-2.xcframework.zip"
+    "http": "https://artifacts.openvessel.io/pods/sdk/OpenVessel-1.0.0.xcframework.zip"
   },
   "vendored_frameworks": "Pod Binary/OpenVessel.xcframework",
   "dependencies": {
