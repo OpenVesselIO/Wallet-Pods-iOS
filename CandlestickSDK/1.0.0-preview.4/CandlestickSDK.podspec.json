@@ -1,0 +1,28 @@
+{
+  "name": "CandlestickSDK",
+  "version": "1.0.0-preview.4",
+  "summary": "This SDK enables connection with Candlestick card",
+  "homepage": "https://candlestick.com",
+  "license": "Candlestick SDK EULA",
+  "authors": {
+    "Candlestick": "support@candlestick.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "module_name": "Candlestick",
+  "swift_versions": "5.1",
+  "frameworks": [
+    "StoreKit",
+    "Combine",
+    "UIKit"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "$(inherited) arm64"
+  },
+  "source": {
+    "http": "https://artifacts.openvessel.io/pods-candlestick/sdk/Candlestick-1.0.0-preview.4.zip"
+  },
+  "vendored_frameworks": "Pod Binary/Candlestick.xcframework",
+  "swift_version": "5.1"
+}
